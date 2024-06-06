@@ -1,2 +1,5 @@
 # Ignore the below files while commting
 *.env
+
+#ignore below
+**/*.exe
