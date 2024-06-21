@@ -26,3 +26,5 @@ Note: Incase if your local got initialized with master branch and remote got int
 **git branch <new_brnchname>:** This command will create a new branch.\
 **git checkout <new_brnchname>:** This will switch to your new branch.\
 **git checkout -b <new_brnch>:** This will create a new branch and switch to it automatically at the same time.\
+**git branch -d <local_branch_name>:** This will delete your local branch but not in remote.\
+**git push origin --delete <remote_branch_name>:** This will delete remote branch.
