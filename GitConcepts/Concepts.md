@@ -21,4 +21,4 @@ Note: Incase if your local got initialized with master branch and remote got int
 - The -a option will automatically stage every changed, already tracked file. But this is onyl applicable if your file is getting already tracked otherwise you need to do git add <filename> first.
   `git commit -a -m <your_mssg>`.
 
-- **git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
+**git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
