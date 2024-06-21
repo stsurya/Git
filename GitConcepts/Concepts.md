@@ -11,10 +11,14 @@ Note: Incase if your local got initialized with master branch and remote got int
 - To maintain clean, organized and meaningful commit history.
 - If you don't want appear some files into your commit, but wants to be track them by git.
 
-If you staged you files and want to unstage them again, use `git reset` command.
+- If you staged you files and want to unstage them again, use `git reset` command.
 
-- **git commit -m <your_message>:** This is used to commit your staged files on to your local branch.
+**git commit -m <your_message>:** This is used to commit your staged files on to your local branch.
 
-- If you want to commint only specific file which are staged you can do this `git commit file1 file2 -m <your_mssg>`.
+- If you want to commit only specific file which are staged you can do this `git commit file1 file2 -m <your_mssg>`.
 
-**git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
+- If you want to skip staging completely, Sometimes, when you make small changes, using the staging environment seems like a waste of time. It is possible to commit changes directly, skipping the staging environment.
+- The -a option will automatically stage every changed, already tracked file. But this is onyl applicable if your file is getting already tracked otherwise you need to do git add <filename> first.
+  `git commit -a -m <your_mssg>`.
+
+- **git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
