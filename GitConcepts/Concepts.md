@@ -22,3 +22,7 @@ Note: Incase if your local got initialized with master branch and remote got int
   `git commit -a -m <your_mssg>`.
 
 **git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
+
+**git branch <new_brnchname>:** This command will create a new branch.
+**git checkout <new_brnchname>:** This will switch to your new branch.
+**git checkout -b <new_brnch>:** This will create a new branch and switch to it automatically at the same time.
