@@ -16,5 +16,6 @@ If you staged you files and want to unstage them again, use `git reset` command.
 - **git commit -m <your_message>:** This is used to commit your staged files on to your local branch.
 
 - If you want to commint only specific file which are staged you can do this `git commit file1 file2 -m <your_mssg>`
+  ##adding comment
 
 **git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
