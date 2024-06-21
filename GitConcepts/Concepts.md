@@ -6,7 +6,7 @@ Note: Incase if your local got initialized with master branch and remote got int
 
 **git add <filename>:** It'll add a file to your staging area.
 
-## What is the use of staging area in Git ?
+### What is the use of staging area in Git ?
 
 - To maintain clean, organized and meaningful commit history.
 - If you don't want appear some files into your commit, but wants to be track them by git.
