@@ -30,5 +30,3 @@ Note: Incase if your local got initialized with master branch and remote got int
 **git push origin --delete <remote_branch_name>:** This will delete remote branch.
 
 **git merge <feature_branch>:** First checkout to main branch and on main branch apply this command to merge your feature branch to main branch.
-
-ADding some extra lines
