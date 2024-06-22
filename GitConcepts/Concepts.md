@@ -23,6 +23,7 @@ Note: Incase if your local got initialized with master branch and remote got int
 
 **git log or git log --oneline:** `git log` will give the list of all commits with more details, whereas `git log --oneline` will give you minimum details and which are required in oneline.
 
+<<<<<<< HEAD
 **git branch <new_brnchname>:** This command will create a new branch.\
 **git checkout <new_brnchname>:** This will switch to your new branch.\
 **git checkout -b <new_brnch>:** This will create a new branch and switch to it automatically at the same time.\
@@ -30,3 +31,8 @@ Note: Incase if your local got initialized with master branch and remote got int
 **git push origin --delete <remote_branch_name>:** This will delete remote branch.
 
 **git merge <feature_branch>:** First checkout to main branch and on main branch apply this command to merge your feature branch to main branch.
+=======
+**git branch <new_brnchname>:** This command will create a new branch.
+**git checkout <new_brnchname>:** This will switch to your new branch.
+**git checkout -b <new_brnch>:** This will create a new branch and switch to it automatically at the same time.
+>>>>>>> parent of 57a2bc1 (\ at eol)
