@@ -31,8 +31,12 @@ Note: Incase if your local got initialized with master branch and remote got int
 
 **git merge <feature_branch>:** First checkout to main branch and on main branch apply this command to merge your feature branch to main branch.
 
+<<<<<<< HEAD
 dsjlnc jkrbsdc meljn
 
 enrovki vnkmvi
 
 eklrfnpermi
+=======
+**git revert**:
+>>>>>>> parent of cec3e68 (Revert "merge cmd")
