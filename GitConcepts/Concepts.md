@@ -30,3 +30,10 @@ Note: Incase if your local got initialized with master branch and remote got int
 **git push origin --delete <remote_branch_name>:** This will delete remote branch.
 
 **git merge <feature_branch>:** First checkout to main branch and on main branch apply this command to merge your feature branch to main branch.
+
+**git revert:**
+Purpose: To undo a specific commit by creating a new commit that reverses the changes of the specified commit.
+Behavior: It does not alter the commit history. Instead, it appends a new commit that undoes the changes made by the target commit.
+Usage: Safe to use in a shared/public repository as it preserves the commit history.
+
+`git revert <CommitID>`
