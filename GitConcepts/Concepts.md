@@ -82,3 +82,8 @@ An editor will open replace the messgae pick with squash of whatever the commint
 
 **git ls-files:** This will list all the files in a repo.
 **git ls-files | xargs wc -l:** This will tell total how many number of lines a repo consists.
+
+**git stash:** This will stash your changes in your current working directory. If you want to work on somethign else then you can stash or chnages and while you're back you can re-apply them.
+
+**git stash pop:** This will reapply all your changes.
+**git stash pop stash@{2}:** You can choose which stash to re-apply by passing its identifier as the last argument.
