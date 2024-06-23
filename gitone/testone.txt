@@ -1,15 +1,3 @@
 I'm testing rever Vs reset learning is super.
 
-1. First code after revert.
-
-<<<<<<< HEAD
-2. Second code after revert.
-
-3. third code after revert.
-
-4. Fourth code after revert.
-
-5. Fifth code after revert.
-=======
-2. Second code after revert.
->>>>>>> parent of 565c0a0 (third commmmit)
+1. First code after revert
