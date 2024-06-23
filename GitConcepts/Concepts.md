@@ -37,3 +37,14 @@ Behavior: It does not alter the commit history. Instead, it appends a new commit
 Usage: Safe to use in a shared/public repository as it preserves the commit history.
 
 `git revert <CommitID>`
+
+**git reset:**
+Purpose: To move the current branch to a specific commit, effectively discarding commits that came after the specified commit.
+Behavior: Alters the commit history by moving the HEAD to the specified commit. Depending on the mode (--soft, --mixed, --hard), it can also change the index and working directory.
+Usage: Should be used with caution, especially in a shared/public repository, as it can rewrite commit history and potentially cause issues for others working on the same branch.
+
+`git reset --hard <CommitID>`
+
+--soft: Keeps changes staged.
+--mixed: Keeps changes in the working directory (default behavior).
+--hard: Discards all changes, resetting both the index and working directory to match the specified commit.
