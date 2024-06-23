@@ -79,3 +79,6 @@ git rebase -i HEAD~3
 An editor will open replace the messgae pick with squash of whatever the commints you want to squash. save and exit then another editor will open then you can enter your own commit message.
 
 ```
+
+**git ls-files:** This will list all the files in a repo.
+**git ls-files | xargs wc -l:** This will tell total how many number of lines a repo consists.
