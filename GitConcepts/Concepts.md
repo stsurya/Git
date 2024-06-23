@@ -48,3 +48,24 @@ Usage: Should be used with caution, especially in a shared/public repository, as
 --soft: Keeps changes staged.
 --mixed: Keeps changes in the working directory (default behavior).
 --hard: Discards all changes, resetting both the index and working directory to match the specified commit.
+
+**git cherry-pick:** When you want to merge specific commit to another branch you can use cherry-pick.
+Eg:
+
+```
+    a - b - c - d   Main
+         \
+           e - f - g Feature
+```
+
+```
+git checkout main
+
+git cherry-pick f
+```
+
+```
+    a - b - c - d - f   Main
+         \
+           e - f - g Feature
+```
