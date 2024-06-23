@@ -69,3 +69,13 @@ git cherry-pick f
          \
            e - f - g Feature
 ```
+
+**git squash:** This is useful when you want to combine multiple commits into one single commit and push to remote.
+This will be helpful when you want to maintain a clean commit history.
+
+```
+git rebase -i HEAD~3
+
+An editor will open replace the messgae pick with squash of whatever the commints you want to squash. save and exit then another editor will open then you can enter your own commit message.
+
+```
