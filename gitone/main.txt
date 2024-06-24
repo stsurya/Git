@@ -1,5 +1,1 @@
-My main file.
-
-On my rebase branch commting stuff.
-
-I'm commiting on main branch itself.
+I want to make this emtpy fresh.
