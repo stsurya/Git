@@ -1,5 +1,1 @@
-Emoty file.
-
-I'm on merge branch and this is my first commit here.
-
-I'm now commiting directly on main branch already merge branch got mergeed.
+Empty file
