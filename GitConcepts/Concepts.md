@@ -31,6 +31,8 @@ Note: Incase if your local got initialized with master branch and remote got int
 
 **git merge <feature_branch>:** First checkout to main branch and on main branch apply this command to merge your feature branch to main branch.
 
+**git rebase <feature_branch>:** It'll foloow liner approach, It means where you pulled the feature branch there only it'll merge the commits. where as merge will always create on top of that.
+
 **git revert:**
 Purpose: To undo a specific commit by creating a new commit that reverses the changes of the specified commit.
 Behavior: It does not alter the commit history. Instead, it appends a new commit that undoes the changes made by the target commit.
