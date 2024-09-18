@@ -89,3 +89,26 @@ An editor will open replace the messgae pick with squash of whatever the commint
 
 **git stash pop:** This will reapply all your changes.
 **git stash pop stash@{2}:** You can choose which stash to re-apply by passing its identifier as the last argument.
+
+## git subtree
+
+If you've a scenario where you need to push your sub folder to another repository then you can use the concept of subtree.
+
+```
+git subtree add --prefix=<Folder Name> <URL of Repo> <branch name>
+```
+
+```
+git add
+git commit
+```
+
+```
+git subtree push --prefix=<Folder Name> <URL of Repo> <branch name>
+```
+
+**Explanation:**
+
+- When you did `git subtree add` it'll create a folder in your local so make sure it shouldn't match with other folder names.
+- Now push the folders or files into this new folder which is created by `git subtree add` which you want to maintain in the other repo.
+- Now do push your changes only the new folder will be psuhed to new second repo.

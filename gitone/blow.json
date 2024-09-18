@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "functionAppNames": {
+      "type": "array"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Web/sites/siteextensions",
+      "apiVersion": "2016-08-01",
+      "name": "[concat(parameters('functionAppNames')[copyIndex()], '/Dynatrace')]",
+      "location": "UK South",
+      "copy": {
+        "name": "extensionDeployment",
+        "count": "[length(parameters('functionAppNames'))]"
+      }
+    }
+  ]
+}
