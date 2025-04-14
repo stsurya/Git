@@ -113,11 +113,6 @@ git subtree push --prefix=<Folder Name> <URL of Repo> <branch name>
 - Now push the folders or files into this new folder which is created by `git subtree add` which you want to maintain in the other repo.
 - Now do push your changes only the new folder will be psuhed to new second repo.
 
-Great follow-up Surya! 🙌  
-No, `git diff` is **very powerful**, and while those 5 are the **most common usages**, there are **more advanced and helpful variations** too!
-
-Let me list them out clearly 👇 (with the earlier 5 included for completeness, then the extra ones after that):
-
 ---
 
 ## ✅ **Most Common `git diff` Usages (Top 5)**
