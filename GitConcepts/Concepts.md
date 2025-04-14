@@ -112,3 +112,48 @@ git subtree push --prefix=<Folder Name> <URL of Repo> <branch name>
 - When you did `git subtree add` it'll create a folder in your local so make sure it shouldn't match with other folder names.
 - Now push the folders or files into this new folder which is created by `git subtree add` which you want to maintain in the other repo.
 - Now do push your changes only the new folder will be psuhed to new second repo.
+
+Great follow-up Surya! 🙌  
+No, `git diff` is **very powerful**, and while those 5 are the **most common usages**, there are **more advanced and helpful variations** too!
+
+Let me list them out clearly 👇 (with the earlier 5 included for completeness, then the extra ones after that):
+
+---
+
+## ✅ **Most Common `git diff` Usages (Top 5)**
+
+1. `git diff`  
+   → Unstaged changes (working directory vs staging area)
+
+2. `git diff --cached` or `--staged`  
+   → Staged changes (staging area vs last commit)
+
+3. `git diff <commit1> <commit2>`  
+   → Differences between two commits
+
+4. `git diff <branch1> <branch2>`  
+   → Differences between two branches
+
+5. `git diff <file>`  
+   → Differences in a specific file
+
+6. `git diff HEAD`  
+   → Changes in **both staged and unstaged** files compared to the **latest commit**
+
+7. `git diff origin/main`  
+   → Compares your current branch with the **remote main branch**
+
+---
+
+## Summary Table
+
+| Command                        | What it does               |
+| ------------------------------ | -------------------------- |
+| `git diff`                     | Unstaged changes           |
+| `git diff --cached`            | Staged changes             |
+| `git diff HEAD`                | All changes vs last commit |
+| `git diff <branch1> <branch2>` | Compare branches           |
+| `git diff <commit1> <commit2>` | Compare commits            |
+| `git diff --name-only`         | Only file names            |
+| `git diff --stat`              | Change summary             |
+| `git diff --word-diff`         | Word-level changes         |
